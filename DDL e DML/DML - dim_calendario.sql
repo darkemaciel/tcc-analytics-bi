@@ -1,8 +1,8 @@
 -- Certifique-se de que a tabela TB_STG_CALENDARIO esteja vazia antes de inserir novos dados
-TRUNCATE TABLE STG.DBO.TB_STG_CALENDARIO;
+TRUNCATE TABLE STG.DBO.TB_DIM_CALENDARIO;
 
--- Inserir dados na tabela STG.DBO.TB_STG_CALENDARIO
-INSERT INTO STG.DBO.TB_STG_CALENDARIO (
+-- Inserir dados na tabela STG.DBO.TB_DIM_CALENDARIO
+INSERT INTO STG.DBO.TB_DIM_CALENDARIO (
     NUM_MES_ANO,
     NUM_MES,
     NOM_MES,
